@@ -1,0 +1,22 @@
+{
+    "name": "rbe-matrix-skin-theme",
+    "displayName": "RBE Matrix Skin Theme",
+    "description": "Easy to read Green on Black theme.",
+    "version": "0.0.1",
+    "publisher": "RudeBoyEnterprises",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "RBE Matrix Skin Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rbe-matrix-color-theme.json"
+            }
+        ]
+    }
+}

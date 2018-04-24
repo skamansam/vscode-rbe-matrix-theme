@@ -293,7 +293,6 @@
 		"editor.foreground": "#00FF00",
 		"editorLineNumber.foreground": "#00aa00",
 		"editorLineNumber.activeForeground": "#ffff00",
-		"editorWhitespace.foreground": "#004400",
 		"editorCursor.background": "#006600",
 		"editorCursor.foreground": "#FF0000",
 
@@ -315,35 +314,38 @@
 		"editor.findMatchHighlightBorder": "#0000ff",
 		"editor.findRangeHighlightBorder": "#0000ff",
 
-
+		"editor.hoverHighlightBackground": "#004400",
 
 		"editor.lineHighlightBackground": "#003300",
 		"editor.lineHighlightBorder": "#004400",
+
 		"editorLink.activeForeground": "#0000ff",
+		"editor.rangeHighlightBackground": "#004400",
+		"editor.rangeHighlightBorder": "#00ff00",
+
+		"editorWhitespace.foreground": "#004400",
+		"editorIndentGuide.background": "#004400",
 		"editorRuler.foreground": "#004400",
-		// "editorActiveLineNumber.foreground": "{{variant.scheme.sidebarForeground}}",
-		// "editorBracketMatch.background": "{{variant.scheme.background}}",
-		// "editorBracketMatch.border": "{{variant.scheme.caret}}50",
-		// "editorCursor.foreground": "{{variant.scheme.caret}}",
-		// "editorError.foreground": "{{variant.scheme.base.red}}70",
-		// "editorGutter.addedBackground": "{{variant.scheme.base.green}}60",
-		// "editorGutter.deletedBackground": "{{variant.scheme.base.red}}60",
-		// "editorGutter.modifiedBackground": "{{variant.scheme.base.blue}}60",
+		"editorCodeLens.foreground": "#999900",
+		"editorBracketMatch.background": "#0000ff",
+		"editorBracketMatch.border": "#ff0000",
+		
+		"editorOverviewRuler.border": "#004400",
+		"editorOverviewRuler.findMatchForeground": "#ffff00",
+		"editorOverviewRuler.rangeHighlightForeground": "#ff0000",
+		"editorOverviewRuler.selectionHighlightForeground": "#0000ff",
+		"editorOverviewRuler.wordHighlightForeground": "#00ff00",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
+		"editorOverviewRuler.modifiedForeground": "#ffff00",
+		"editorOverviewRuler.addedForeground": "#0000ff",
+		"editorOverviewRuler.deletedForeground": "#ff0000",
+		"editorOverviewRuler.warningForeground": "#ff0000",
+
+		"editorOverviewRuler.bracketMatchForeground": "#ff0000",
+		
+
 		"editorHoverWidget.background": "#000000",
 		"editorHoverWidget.border": "#009900",
-		// "editorIndentGuide.background": "{{variant.scheme.guides}}",
-		// "editorLink.activeForeground": "{{variant.scheme.foreground}}",
-		// "editorMarkerNavigation.background": "{{variant.scheme.foreground}}05",
-		// "editorOverviewRuler.border": "{{variant.scheme.background}}",
-		// "editorRuler.foreground": "{{variant.scheme.guides}}",
-		// "editorSuggestWidget.background": "{{variant.scheme.background}}",
-		// "editorSuggestWidget.border": "{{variant.scheme.inputBorder}}",
-		// "editorSuggestWidget.foreground": "{{variant.scheme.foreground}}",
-		// "editorSuggestWidget.highlightForeground": "{{commons.accents.Teal}}",
-		// "editorSuggestWidget.selectedBackground": "{{variant.scheme.lineHighlight}}50",
-		// "editorWarning.foreground": "{{variant.scheme.base.green}}70",
-		// "editorWhitespace.foreground": "{{variant.scheme.foreground}}10",
-		// "editorWidget.background": "{{variant.scheme.background}}",
 
 
 

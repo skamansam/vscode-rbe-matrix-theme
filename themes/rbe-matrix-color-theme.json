@@ -337,20 +337,45 @@
 		"editorOverviewRuler.wordHighlightForeground": "#00ff00",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
 		"editorOverviewRuler.modifiedForeground": "#ffff00",
-		"editorOverviewRuler.addedForeground": "#0000ff",
+		"editorOverviewRuler.addedForeground": "#00ffff",
 		"editorOverviewRuler.deletedForeground": "#ff0000",
-		"editorOverviewRuler.warningForeground": "#ff0000",
-
+		"editorOverviewRuler.warningForeground": "#ffff00",
+		"editorOverviewRuler.infoForeground": "#0000ff",
 		"editorOverviewRuler.bracketMatchForeground": "#ff0000",
 		
+		"editorError.foreground": "#ff0000",
+		"editorError.border": "#ff0000",
+		"editorWarning.foreground": "#ffff00",
+		"editorWarning.border": "#ffff00",
+		"editorInfo.foreground": "#0000ff",
+		"editorInfo.border": "#0000ff",
+		"editorHint.foreground": "#00ff00",
+		"editorHint.border": "#0000ff",
 
-		"editorHoverWidget.background": "#000000",
-		"editorHoverWidget.border": "#009900",
-
+		"editorGutter.background": "#001100",
+		"editorGutter.modifiedBackground": "#009900",
+		"editorGutter.addedBackground": "#00ffff",
+		"editorGutter.deletedBackground": "#ff0000",
 
 
 		// Diff Editor Colors
+		"diffEditor.insertedTextBackground": "#0000ff66",
+		"diffEditor.insertedTextBorder": "#0000ff",
+		"diffEditor.removedTextBackground": "#ff000066",
+		"diffEditor.removedTextBorder": "#ff0000",
+
 		// Editor Widget Colors
+		"editorWidget.background": "#002200",
+		"editorWidget.border": "#00ff00",
+		"editorSuggestWidget.background": "#002200",
+		"editorSuggestWidget.border": "#00ff00",
+		"editorSuggestWidget.foreground": "#00ff00",
+		"editorSuggestWidget.highlightForeground": "#ffff00",
+		"editorSuggestWidget.selectedBackground": "#004400",
+		"editorHoverWidget.background": "#00000000",
+		"editorHoverWidget.border": "#00ff00",
+
+
 		// Peek View Colors
 		// Merge Conflicts
 		// Panel Colors

@@ -8,7 +8,7 @@ test files in the source code of this syntax plugin, as a test. These were taken
 # Base Theme
 This theme can be used as a base theme for your next theme, and has been hand-crafted with every available option. You are free to use this theme as a base for your own. For info about all options, see https://code.visualstudio.com/docs/getstarted/theme-color-reference.
 
-![A screenshot of the theme](https://raw.githubusercontent.com/skamansam/vscode-rbe-matrix-syntax/master/rbe-matrix-theme.gif)
+![A screenshot of the theme](rbe-matrix-theme.gif)
 
 # License
 This is free and unencumbered software released into the public domain.

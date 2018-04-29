@@ -1,4 +1,5 @@
-import {x, y} as p from 'point';
+// import {x, y} as p from 'point';
+import Ref, {refConst} from 'test_ref';
 const ANSWER = 42;
 
 class Car extends Vehicle {
@@ -34,5 +35,7 @@ function $initHighlight(block, flags) {
   }
   console.log(Array.every(classes, Boolean));
 }
+
+let c = new Ref();
 
 export  $initHighlight;

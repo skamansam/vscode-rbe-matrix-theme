@@ -374,84 +374,80 @@
 		"editorSuggestWidget.selectedBackground": "#004400",
 		"editorHoverWidget.background": "#00000000",
 		"editorHoverWidget.border": "#00ff00",
+		"debugExceptionWidget.background": "#440000",
+		"debugExceptionWidget.border": "#ff0000",
 
+		"editorMarkerNavigation.background": "#ff000044",
+		"editorMarkerNavigationError.background": "#ff000044",
+		"editorMarkerNavigationWarning.background": "#ffff0044",
+		"editorMarkerNavigationInfo.background": "#0000ff44",
 
 		// Peek View Colors
+		"peekView.border": "#00ff00",
+		"peekViewEditor.background": "#001100",
+		"peekViewEditorGutter.background": "#003300",
+		"peekViewEditor.matchHighlightBackground": "#006600",
+		"peekViewEditor.matchHighlightBorder": "#00ff00",
+		"peekViewResult.background": "#00ff0022",
+		"peekViewResult.fileForeground": "#ffff00",
+		"peekViewResult.lineForeground": "#00ff00",
+		"peekViewResult.matchHighlightBackground": "#00ff0022",
+		"peekViewResult.selectionBackground": "#002200",
+		"peekViewResult.selectionForeground": "#ffff00",
+		"peekViewTitle.background": "#00ff0022",
+		"peekViewTitleDescription.foreground": "#00ff00",
+		"peekViewTitleLabel.foreground": "#ffff00",
+
 		// Merge Conflicts
 		// Panel Colors
-		// Status Bar Colors
-		// Title Bar Colors (MacOS)
-		// Notification Colors
-		// Extensions
-		// Quick Picker
-		// Integrated Terminal Colors
-		// Debug
-		// Welcome Page
-		// Git Colors
-
-
-		"titleBar.activeBackground": "#004400",
-		"titleBar.activeForeground": "#00ff00",
-		"titleBar.inactiveBackground": "#000000",
-		"titleBar.inactiveForeground": "#004400",
-
-
-		"debugToolBar.background": "#000000",
-		"debugToolBar.border": "#00FF00",
-		// "diffEditor.insertedTextBackground": "{{variant.scheme.base.green}}15",
-		// "diffEditor.removedTextBackground": "{{variant.scheme.base.red}}20",
-
-		// "extensionButton.prominentBackground": "{{variant.scheme.base.green}}90",
-		// "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}",
-		// "gitDecoration.conflictingResourceForeground": "{{variant.scheme.base.yellow}}90",
-		// "gitDecoration.deletedResourceForeground": "{{variant.scheme.base.red}}90",
-		// "gitDecoration.ignoredResourceForeground": "{{variant.scheme.sidebarForeground}}90"
-		// "gitDecoration.modifiedResourceForeground": "{{variant.scheme.base.blue}}90",
-		// "gitDecoration.untrackedResourceForeground": "{{variant.scheme.base.green}}90",
-		// "notificationLink.foreground": "{{commons.accents.Teal}}",
-		"notifications.background": "#000099",
-		"notifications.foreground": "#00ff00",
 		"panel.background": "#000000",
 		"panel.border": "#00ff00",
 		"panelTitle.activeForeground": "#00ff00",
-		// "peekView.border": "{{variant.scheme.shadow}}",
-		// "peekViewEditor.background": "{{variant.scheme.foreground}}05",
-		// "peekViewEditor.matchHighlightBackground": "{{variant.scheme.selection}}",
-		// "peekViewEditorGutter.background": "{{variant.scheme.foreground}}05",
-		// "peekViewResult.background": "{{variant.scheme.foreground}}05",
-		// "peekViewResult.matchHighlightBackground": "{{variant.scheme.selection}}",
-		// "peekViewTitle.background": "{{variant.scheme.foreground}}05",
-		// "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
-		// "pickerGroup.foreground": "{{commons.accents.Teal}}",
-		// "progressBar.background": "{{commons.accents.Teal}}",
+
+		// Status Bar Colors
 		"statusBar.background": "#004400",
 		"statusBar.border": "#00ff00",
 		"statusBar.debuggingBackground": "#ffff00",
 		"statusBar.debuggingForeground": "#000000",
 		"statusBar.foreground": "#00ff00",
-		"statusBar.noFolderBackground": "#0000ff"
-		// "terminal.ansiBlack": "{{variant.scheme.comments}}",
-		// "terminal.ansiBlue": "{{variant.scheme.base.blue}}",
-		// "terminal.ansiBrightBlack": "{{variant.scheme.comments}}",
-		// "terminal.ansiBrightBlue": "{{variant.scheme.base.blue}}",
-		// "terminal.ansiBrightCyan": "{{variant.scheme.base.cyan}}",
-		// "terminal.ansiBrightGreen": "{{variant.scheme.base.green}}",
-		// "terminal.ansiBrightMagenta": "{{variant.scheme.base.purple}}",
-		// "terminal.ansiBrightRed": "{{variant.scheme.base.red}}",
-		// "terminal.ansiBrightWhite": "{{variant.scheme.base.white}}",
-		// "terminal.ansiBrightYellow": "{{variant.scheme.base.yellow}}",
-		// "terminal.ansiCyan": "{{variant.scheme.base.cyan}}",
-		// "terminal.ansiGreen": "{{variant.scheme.base.green}}",
-		// "terminal.ansiMagenta": "{{variant.scheme.base.purple}}",
-		// "terminal.ansiRed": "{{variant.scheme.base.red}}",
-		// "terminal.ansiWhite": "{{variant.scheme.base.white}}",
-		// "terminal.ansiYellow": "{{variant.scheme.base.yellow}}",
-		// "textLink.activeForeground": "{{variant.scheme.foreground}}",
-		// "textLink.foreground": "{{commons.accents.Teal}}",
-		// "titleBar.activeBackground": "{{variant.scheme.backgroundAlt}}",
-		// "titleBar.activeForeground": "{{variant.scheme.comments}}",
-		// "titleBar.border": "{{variant.scheme.contrastBorder}}60",
-		// "titleBar.inactiveBackground": "{{variant.scheme.backgroundAlt}}",
-		// "titleBar.inactiveForeground": "{{variant.scheme.comments}}",
+		"statusBar.noFolderBackground": "#0000ff",
+
+		// Title Bar Colors (MacOS)
+		"titleBar.activeBackground": "#004400",
+		"titleBar.activeForeground": "#00ff00",
+		"titleBar.inactiveBackground": "#000000",
+		"titleBar.inactiveForeground": "#004400",
+		"titleBar.border": "#00ff00",
+
+		// Notification Colors
+		"notifications.background": "#000099",
+		"notifications.foreground": "#00ff00",
+
+		// Extensions
+		// Quick Picker
+		// Integrated Terminal Colors
+		// Debug
+		"debugToolBar.background": "#000000",
+		"debugToolBar.border": "#00FF00",
+
+		// Welcome Page
+
+		// Git Colors
+		"gitDecoration.conflictingResourceForeground": "#ff0000",
+		"gitDecoration.deletedResourceForeground": "#990000",
+		"gitDecoration.ignoredResourceForeground": "#009900",
+		"gitDecoration.modifiedResourceForeground": "#00ffff",
+		"gitDecoration.submoduleResourceForeground": "#ffff00",
+		"gitDecoration.untrackedResourceForeground": "#ff00ff",
+
+		// extra: gitlens
+		"gitlens.gutterBackgroundColor": "#ff0000",
+		"gitlens.gutterForegroundColor": "#ffff00",
+		"gitlens.gutterUncommittedForegroundColor": "#0000ff",
+		"gitlens.lineHighlightBackgroundColor": "#004400",
+		"gitlens.lineHighlightOverviewRulerColor": "#009900",
+		"gitlens.trailingLineBackgroundColor": "#ff0000",
+		"gitlens.trailingLineForegroundColor": "#ff0000"
+		
 	}
 }

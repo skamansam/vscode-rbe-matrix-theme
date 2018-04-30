@@ -339,6 +339,7 @@
 		"editorOverviewRuler.modifiedForeground": "#ffff00",
 		"editorOverviewRuler.addedForeground": "#00ffff",
 		"editorOverviewRuler.deletedForeground": "#ff0000",
+		"editorOverviewRuler.errorForeground": "#ff0000",
 		"editorOverviewRuler.warningForeground": "#ffff00",
 		"editorOverviewRuler.infoForeground": "#0000ff",
 		"editorOverviewRuler.bracketMatchForeground": "#ff0000",
@@ -399,18 +400,35 @@
 		"peekViewTitleLabel.foreground": "#ffff00",
 
 		// Merge Conflicts
+		"merge.currentHeaderBackground": "#00ff0044",
+		"merge.currentContentBackground": "#00ff0022",
+		"merge.incomingHeaderBackground": "#ff000044",
+		"merge.incomingContentBackground": "#ff000022",
+		"merge.border": "#ff0000",
+		"merge.commonContentBackground": "#0000ff22",
+		"merge.commonHeaderBackground": "#0000ff44",
+		"editorOverviewRuler.currentContentForeground": "#004400",
+		"editorOverviewRuler.incomingContentForeground": "#440000",
+		"editorOverviewRuler.commonContentForeground": "#000044",
+
 		// Panel Colors
 		"panel.background": "#000000",
 		"panel.border": "#00ff00",
+		"panel.dropBackground": "#00ff0099",
+		"panelTitle.activeBorder": "#00ff00",
+		"panelTitle.inactiveForeground": "#009900",
 		"panelTitle.activeForeground": "#00ff00",
 
 		// Status Bar Colors
 		"statusBar.background": "#004400",
-		"statusBar.border": "#00ff00",
-		"statusBar.debuggingBackground": "#ffff00",
-		"statusBar.debuggingForeground": "#000000",
 		"statusBar.foreground": "#00ff00",
-		"statusBar.noFolderBackground": "#0000ff",
+		"statusBar.border": "#00ff00",
+		"statusBar.debuggingBackground": "#999900",
+		"statusBar.debuggingForeground": "#ff0000",
+		"statusBar.debuggingBorder": "#ff0000",
+		"statusBar.noFolderForeground": "#00ff00",
+		"statusBar.noFolderBackground": "#000099",
+		"statusBar.noFolderBorder": "#ffff00",
 
 		// Title Bar Colors (MacOS)
 		"titleBar.activeBackground": "#004400",
@@ -420,12 +438,49 @@
 		"titleBar.border": "#00ff00",
 
 		// Notification Colors
-		"notifications.background": "#000099",
+		"notificationCenter.border": "#ffff00",
+		"notificationCenterHeader.background": "#006600",
+		"notificationCenterHeader.foreground": "#00ff00",
+		"notificationToast.border": "#00ff00",
+		"notifications.background": "#000022",
 		"notifications.foreground": "#00ff00",
-
+		"notifications.border": "#00ff00",
+		"notificationLink.foreground": "#0000ff",
+		
 		// Extensions
+		"extensionButton.prominentForeground": "#ffff00",
+		"extensionButton.prominentBackground": "#002200",
+		"extensionButton.prominentHoverBackground": "#006600",
+
 		// Quick Picker
+		"pickerGroup.border": "#00ff00",
+		"pickerGroup.foreground": "#00ff00",
+
 		// Integrated Terminal Colors
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiBlue": "#0000cc",
+		"terminal.ansiBrightBlack": "#444444",
+		"terminal.ansiBrightBlue": "#0000ff",
+		"terminal.ansiBrightCyan": "#00ffff",
+		"terminal.ansiBrightGreen": "#00ff00",
+		"terminal.ansiBrightMagenta": "#ff00ff",
+		"terminal.ansiBrightRed": "#ff0000",
+		"terminal.ansiBrightWhite": "#ffffff",
+		"terminal.ansiBrightYellow": "#ffff00",
+		"terminal.ansiCyan": "#00cccc",
+		"terminal.ansiGreen": "#00cc00",
+		"terminal.ansiMagenta": "#cc00cc",
+		"terminal.ansiRed": "#aa0000",
+		"terminal.ansiWhite": "#cccccc",
+		"terminal.ansiYellow": "#cccc00",
+		"terminal.background": "#000000",
+		"terminal.border": "#00ff00",
+		"terminal.foreground": "#00dd00",
+		"terminal.selectionBackground": "#00ff0044",
+		"terminalCursor.background": "#ff0000",
+		"terminalCursor.foreground": "#ffff00",
+
+
 		// Debug
 		"debugToolBar.background": "#000000",
 		"debugToolBar.border": "#00FF00",

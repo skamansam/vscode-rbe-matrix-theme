@@ -178,9 +178,9 @@
 	],
 	"colors": {
 
-		// Contrast Colors
-		// "contrastActiveBorder": "#ff0000",
-		// "contrastBorder": "#ff0000",
+		// Contrast Colors - only set for high contrast!
+		// "contrastActiveBorder": "#ffff00",
+		// "contrastBorder": "#00ff00",
 
 		// Base Colors
 		"focusBorder": "#00FF00",
@@ -325,6 +325,7 @@
 
 		"editorWhitespace.foreground": "#004400",
 		"editorIndentGuide.background": "#004400",
+		"editorIndentGuide.activeBackground": "#ffff00",
 		"editorRuler.foreground": "#004400",
 		"editorCodeLens.foreground": "#999900",
 		"editorBracketMatch.background": "#0000ff",
@@ -429,6 +430,11 @@
 		"statusBar.noFolderForeground": "#00ff00",
 		"statusBar.noFolderBackground": "#000099",
 		"statusBar.noFolderBorder": "#ffff00",
+		"statusBarItem.activeBackground": "#0000",
+		"statusBarItem.hoverBackground": "#00ff00cc",
+		"statusBarItem.prominentBackground": "#0000ff66",
+		"statusBarItem.prominentHoverBackground": "#0000ff99",
+
 
 		// Title Bar Colors (MacOS)
 		"titleBar.activeBackground": "#004400",
@@ -480,12 +486,14 @@
 		"terminalCursor.background": "#ff0000",
 		"terminalCursor.foreground": "#ffff00",
 
-
 		// Debug
 		"debugToolBar.background": "#000000",
 		"debugToolBar.border": "#00FF00",
 
 		// Welcome Page
+		"welcomePage.buttonBackground": "#004400",
+		"welcomePage.buttonHoverBackground": "#006600",
+		"walkThrough.embeddedEditorBackground": "#002200",
 
 		// Git Colors
 		"gitDecoration.conflictingResourceForeground": "#ff0000",
@@ -503,6 +511,5 @@
 		"gitlens.lineHighlightOverviewRulerColor": "#009900",
 		"gitlens.trailingLineBackgroundColor": "#ff0000",
 		"gitlens.trailingLineForegroundColor": "#ff0000"
-		
 	}
 }

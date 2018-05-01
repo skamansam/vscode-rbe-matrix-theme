@@ -421,7 +421,7 @@
 		"panelTitle.activeForeground": "#00ff00",
 
 		// Status Bar Colors
-		"statusBar.background": "#004400",
+		"statusBar.background": "#002200",
 		"statusBar.foreground": "#00ff00",
 		"statusBar.border": "#00ff00",
 		"statusBar.debuggingBackground": "#999900",
@@ -504,12 +504,12 @@
 		"gitDecoration.untrackedResourceForeground": "#ff00ff",
 
 		// extra: gitlens
-		"gitlens.gutterBackgroundColor": "#ff0000",
-		"gitlens.gutterForegroundColor": "#ffff00",
-		"gitlens.gutterUncommittedForegroundColor": "#0000ff",
-		"gitlens.lineHighlightBackgroundColor": "#004400",
+		"gitlens.gutterBackgroundColor": "#001100",
+		"gitlens.gutterForegroundColor": "#004400",
+		"gitlens.gutterUncommittedForegroundColor": "#444400",
+		"gitlens.lineHighlightBackgroundColor": "#002200",
 		"gitlens.lineHighlightOverviewRulerColor": "#009900",
-		"gitlens.trailingLineBackgroundColor": "#ff0000",
-		"gitlens.trailingLineForegroundColor": "#ff0000"
+		"gitlens.trailingLineBackgroundColor": "#001100",
+		"gitlens.trailingLineForegroundColor": "#004400"
 	}
 }

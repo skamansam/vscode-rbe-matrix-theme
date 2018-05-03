@@ -357,8 +357,7 @@
 		"editorGutter.background": "#001100",
 		"editorGutter.modifiedBackground": "#009900",
 		"editorGutter.addedBackground": "#00ffff",
-		"editorGutter.deletedBackground": "#ff0000",
-
+		"editorGutter.deletedBackground": "#ff0000",		
 
 		// Diff Editor Colors
 		"diffEditor.insertedTextBackground": "#0000ff66",
@@ -374,7 +373,7 @@
 		"editorSuggestWidget.foreground": "#00ff00",
 		"editorSuggestWidget.highlightForeground": "#ffff00",
 		"editorSuggestWidget.selectedBackground": "#004400",
-		"editorHoverWidget.background": "#00000000",
+		"editorHoverWidget.background": "#000000ff",
 		"editorHoverWidget.border": "#00ff00",
 		"debugExceptionWidget.background": "#440000",
 		"debugExceptionWidget.border": "#ff0000",
@@ -424,14 +423,14 @@
 		"statusBar.background": "#002200",
 		"statusBar.foreground": "#00ff00",
 		"statusBar.border": "#00ff00",
-		"statusBar.debuggingBackground": "#999900",
-		"statusBar.debuggingForeground": "#ff0000",
+		"statusBar.debuggingBackground": "#ffff00",
+		"statusBar.debuggingForeground": "#000000",
 		"statusBar.debuggingBorder": "#ff0000",
 		"statusBar.noFolderForeground": "#00ff00",
 		"statusBar.noFolderBackground": "#000099",
 		"statusBar.noFolderBorder": "#ffff00",
 		"statusBarItem.activeBackground": "#0000",
-		"statusBarItem.hoverBackground": "#00ff00cc",
+		"statusBarItem.hoverBackground": "#00ff0066",
 		"statusBarItem.prominentBackground": "#0000ff66",
 		"statusBarItem.prominentHoverBackground": "#0000ff99",
 
@@ -504,12 +503,12 @@
 		"gitDecoration.untrackedResourceForeground": "#ff00ff",
 
 		// extra: gitlens
-		"gitlens.gutterBackgroundColor": "#001100",
-		"gitlens.gutterForegroundColor": "#004400",
-		"gitlens.gutterUncommittedForegroundColor": "#444400",
-		"gitlens.lineHighlightBackgroundColor": "#002200",
+		"gitlens.gutterBackgroundColor": "#004400",
+		"gitlens.gutterForegroundColor": "#008800",
+		"gitlens.gutterUncommittedForegroundColor": "#008888",
+		"gitlens.lineHighlightBackgroundColor": "#004400",
 		"gitlens.lineHighlightOverviewRulerColor": "#009900",
-		"gitlens.trailingLineBackgroundColor": "#001100",
-		"gitlens.trailingLineForegroundColor": "#004400"
+		"gitlens.trailingLineBackgroundColor": "#004400",
+		"gitlens.trailingLineForegroundColor": "#008800"
 	}
 }
